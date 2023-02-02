@@ -31,6 +31,8 @@ the data using typed views. The purpose of the pattern is to achieve a high degr
 in a strongly typed language where new properties can be added to the object-tree on the fly, without losing the 
 support of type-safety. The pattern makes use of traits to separate different properties of a class into different 
 interfaces.
+> 
+> 一种面向对象的结构设计模式，用于在松散类型的键值存储中组织对象，并使用类型化视图公开数据。该模式的目的是在强类型语言中实现组件之间的高度灵活性，可以动态地将新属性添加到对象树中，而不会失去类型安全的支持。该模式使用**trait**将类的不同属性分离到不同的接口中
 
 **Programmatic Example**
 
