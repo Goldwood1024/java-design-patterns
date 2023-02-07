@@ -13,6 +13,7 @@ tag:
 Aggregate calls to microservices in a single location, the API Gateway. The user makes a single call 
 to the API Gateway, and the API Gateway then calls each relevant microservice.
 
+在单个位置(API网关)中聚合对微服务的调用。用户对API Gateway进行单个调用，然后API Gateway调用每个相关的微服务。
 ## Explanation
 
 With the Microservices pattern, a client may need data from multiple different microservices. If the 
@@ -28,6 +29,10 @@ pattern, an additional entity (the API Gateway) is placed between the client and
 The job of the API Gateway is to aggregate the calls to the microservices. Rather than the client 
 calling each microservice individually, the client calls the API Gateway a single time. The API 
 Gateway then calls each of the microservices that the client needs.
+
+使用微服务模式，客户端可能需要来自多个不同微服务的数据。如果客户端直接调用每个微服务，可能会导致更长的加载时间，因为客户端必须为每个被调用的微服务发出网络请求。此外，让客户端调用每个微服务直接将客户端绑定到该微服务上——如果微服务的内部实现发生了变化(例如，如果将来某个时候两个微服务合并了)，或者微服务的位置(主机和端口)发生了变化，那么使用这些微服务的每个客户端都必须更新。
+
+API Gateway模式的目的是缓解其中一些问题。在API网关模式中，在客户端和微服务之间放置了一个附加实体(API网关)。API Gateway的任务是将调用聚合到微服务。客户端不是单独调用每个微服务，而是一次调用API网关。API网关然后调用客户端需要的每个微服务。
 
 Real world example
 

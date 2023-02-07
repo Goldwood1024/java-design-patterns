@@ -11,7 +11,7 @@ tag:
 ## Intent
 
 The user makes a single call to the aggregator service, and the aggregator then calls each relevant microservice.
-
+用户对聚合器服务进行单个调用，然后聚合器调用每个相关的微服务
 ## Explanation
 
 Real world example

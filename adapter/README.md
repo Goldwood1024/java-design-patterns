@@ -13,6 +13,8 @@ Wrapper
 Convert the interface of a class into another interface the clients expect. Adapter lets classes work together that 
 couldn't otherwise because of incompatible interfaces.
 
+将类的接口转换为客户端期望的另一个接口。适配器允许类一起工作，否则由于不兼容的接口而无法一起工作。
+
 ## Explanation
 
 Real-world example

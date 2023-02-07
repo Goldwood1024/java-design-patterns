@@ -15,6 +15,8 @@ Kit
 Provide an interface for creating families of related or dependent
 objects without specifying their concrete classes.
 
+提供一个接口，用于创建一系列相关或依赖的对象，而无需指定它们的具体类。
+
 ## Explanation
 
 Real-world example

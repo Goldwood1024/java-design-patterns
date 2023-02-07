@@ -10,6 +10,8 @@ tag:
 ## Intent
 The active object design pattern decouples method execution from method invocation for objects that each reside in their thread of control. The goal is to introduce concurrency, by using asynchronous method invocation, and a scheduler for handling requests.
 
+活动对象设计模式将每个驻留在其控制线程中的对象的方法执行与方法调用解耦。目标是通过使用异步方法调用和处理请求的调度器来引入并发性。
+
 ## Explanation
 
 The class that implements the active object pattern will contain a self-synchronization mechanism without using 'synchronized' methods.

@@ -1,5 +1,5 @@
 ---
-title: Ambassador
+title: Ambassador [大使]
 category: Structural
 language: en
 tag:
@@ -11,6 +11,7 @@ tag:
 
 Provide a helper service instance on a client and offload common functionality away from a shared resource.
 
+在客户端上提供一个助手服务实例，并从共享资源中卸载公共功能
 ## Explanation
 
 Real world example
@@ -18,11 +19,15 @@ Real world example
 > A remote service has many clients accessing a function it provides. The service is a legacy application and is 
 > impossible to update. Large numbers of requests from users are causing connectivity issues. New rules for request 
 > frequency should be implemented along with latency checks and client-side logging.
+> 
+> 远程服务有许多客户端访问它提供的功能。该服务是遗留应用程序，不可能更新。来自用户的大量请求导致连接问题。请求频率的新规则应该与延迟检查和客户端日志一起实现。远程服务有许多客户端访问它提供的功能。该服务是遗留应用程序，不可能更新。来自用户的大量请求导致连接问题。请求频率的新规则应该与延迟检查和客户端日志一起实现。
 
 In plain words
 
 > With the Ambassador pattern, we can implement less-frequent polling from clients along with latency checks and 
 > logging.
+> 
+> 使用Ambassador模式，我们可以实现来自客户端的低频率轮询以及延迟检查和日志记录。
 
 Microsoft documentation states
 
