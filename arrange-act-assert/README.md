@@ -19,6 +19,13 @@ It breaks tests down into three clear and distinct steps:
 2. Act: Take action(s) required for the test.
 3. Assert: Verify the outcome(s) of the test.
 
+排列/行动/断言(AAA)是一种组织单元测试的模式。
+它将测试分解为三个清晰而不同的步骤:
+
+1. 安排:执行测试所需的设置和初始化。
+2. 行动:采取测试所需的行动。
+3. 断言:验证测试的结果。
+
 ## Explanation
 
 This pattern has several significant benefits. It creates a clear separation between a test's
@@ -29,6 +36,11 @@ quickly comprehend what it does.
 It also enforces a certain degree of discipline when you write your tests. You have to think
 clearly about the three steps your test will perform. It makes tests more natural to write at
 the same time since you already have an outline.
+
+
+这个模式有几个重要的好处。它在测试的设置、操作和结果之间创建了一个清晰的分离。这种结构使代码更容易阅读和理解。如果您将这些步骤按顺序排列，并将代码格式化以将它们分开，那么您就可以扫描一个测试并快速理解它的功能。
+
+它还在编写测试时强制执行一定程度的纪律。您必须清楚地考虑您的测试将执行的三个步骤。因为您已经有了大纲，所以在同一时间编写测试更加自然。
 
 Real world example
 
