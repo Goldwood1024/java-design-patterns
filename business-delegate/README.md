@@ -13,6 +13,8 @@ presentation and business tiers. By using the pattern we gain loose coupling
 between the tiers and encapsulate knowledge about how to locate, connect to,
 and interact with the business objects that make up the application.
 
+业务代表模式在表示层和业务层之间添加了一个抽象层。通过使用该模式，我们获得了层之间的松散耦合，并封装了关于如何定位、连接到组成应用程序的业务对象并与之交互的知识。
+
 ## Explanation
 
 Real world example

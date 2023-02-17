@@ -13,6 +13,8 @@ is not blocked while waiting results of tasks. The pattern provides parallel
 processing of multiple independent tasks and retrieving the results via
 callbacks or waiting until everything is done. 
 
+异步方法调用是一种在等待任务结果时不阻塞调用线程的模式。该模式提供了多个独立任务的并行处理，并通过回调或等待所有任务完成来检索结果。
+
 ## Explanation
 
 Real world example

@@ -8,9 +8,10 @@ tag:
 
 ## Intent
 
-Balking Pattern is used to prevent an object from executing a certain code if it is in an incomplete 
+Balking [ˈbɔːkɪŋ [电]阻行；慢行] Pattern is used to prevent an object from executing a certain code if it is in an incomplete 
 or inappropriate state.
 
+阻塞模式用于防止对象在不完整或不适当的状态下执行某些代码
 ## Explanation
 
 Real world example

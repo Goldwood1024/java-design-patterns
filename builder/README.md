@@ -11,6 +11,8 @@ tag:
 Separate the construction of a complex object from its representation so that the same construction 
 process can create different representations.
 
+将复杂对象的构造与其表示分开，以便相同的构造过程可以创建不同的表示
+
 ## Explanation
 
 Real-world example

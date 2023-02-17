@@ -14,6 +14,8 @@ Handle/Body
 
 Decouple an abstraction from its implementation so that the two can vary independently.
 
+将抽象与其实现解耦，以便两者可以独立变化
+
 ## Explanation
 
 Real-world example
